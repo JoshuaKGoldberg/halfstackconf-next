@@ -10,9 +10,9 @@ import twitterIconInverted from "./assets/iconTwitterInverted.png";
 import styles from "./index.module.css";
 
 const icons = [
-  ["Facebook", facebookIconInverted],
-  ["Instagram", instagramIconInverted],
-  ["Twitter", twitterIconInverted],
+  ["Facebook", facebookIconInverted, "https://www.facebook.com/halfstackconf/"],
+  ["Instagram", instagramIconInverted, "https://www.instagram.com/halfstack2022/"],
+  ["Twitter", twitterIconInverted, "https://twitter.com/halfstackconf/"],
 ] as const;
 
 export interface EventFooterProps {
@@ -33,10 +33,10 @@ export function EventFooter({ slug }: EventFooterProps) {
       </div>
       <BodyArea className={styles.contents}>
         <div className={styles.iconLinks}>
-          {icons.map(([alt, src]) => (
+          {icons.map(([alt, src, href]) => (
             <a
               className={styles.icon}
-              href="https://twitter.com/halfstackconf"
+              href={href}
               key={alt}
               rel="noreferrer"
               target="_blank"

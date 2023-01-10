@@ -27,7 +27,7 @@ const defaultFAQs: [string, React.ReactNode][] = [
     <>
       HalfStack delivers an authentic, high-quality experience and provide meals
       and drinks and have speakers traveling from out of the area. Because we do
-      not compromise on attendee experience, we don&APOS;t accept some
+      not compromise on attendee experience, we don't accept some
       sponsorship offers that ask for things that degrade the attendee
       experience. We want to make HalfStack inclusive for everyone that wants to
       attend (until we run out of seats). If you cannot afford our ticket prices
@@ -39,7 +39,7 @@ const defaultFAQs: [string, React.ReactNode][] = [
   [
     "Where is the HalfStack imprint and privacy policy?",
     <>
-      We are VAT registered (ATU74390367). You may also{" "}
+      We are incorporated in the USA. We are VAT registered in the UK (GB316217429) and Austria (ATU74390367). You may also{" "}
       <Link href="/contact">contact HalfStack</Link>.
     </>,
   ],

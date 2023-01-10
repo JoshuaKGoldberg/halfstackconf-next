@@ -1,7 +1,7 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
   "code": "halfstack-charlotte-2023",
-  "date": "28th of April 2023",
+  "date": "April 28th 2023",
   "description": [
     "The first ever HalfStack Charlotte event.",
     "Tickets now available for an incredible day of JS!"
@@ -15,6 +15,7 @@
   "geolocation": [35.2271, -80.8431],
   "location": "Charlotte, North Carolina",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
+  "packet": "https://app.livingspec.com/accept-invitation?code=b34caf9d-937a-4c19-9d4d-687a03122d2e",
   "sessions": [],
   "sponsors": {
     "complete": [
@@ -30,7 +31,7 @@
       },
       {
         "href": "https://www.wix.com/velo",
-        "src": "/logos/wixengineering.svg",
+        "src": "/logos/wix.svg",
         "name": "Wix"
       }
     ],

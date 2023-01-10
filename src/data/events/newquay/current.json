@@ -1,243 +1,57 @@
 {
   "afterparty": "Afterparty TBD",
-  "catchphrase": "We just concluded our first event in Newquay after a two-year COVID-induced delay. Stay tuned for details for our plans for 2023!",
+  "catchphrase": "We're excited to bring HalfStack back to Newquay on the 23rd of June, 2023",
   "code": "halfstack-uk-events-2022",
-  "date": "Friday 1st of July 2022, 10am - Late",
+  "date": "Friday 23rd of June 2023, 10am - Late",
   "description": [
-    "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
-    "Mostly from the Southwest UK, with some from through the UK, Europe and the US"
+    "150 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
+    "Mostly from the Southwest UK, with some from through the UK, Europe and beyond"
   ],
   "geolocation": [50.4142037, -5.0839618],
   "location": "C-Space Newquay",
-  "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, breaks, lunch, dinner, and an interactive afterparty. Plan to arrive by 10am and stay late! We're also expecting to have fun at the beach on Saturday, so plan to stay the whole weekend!",
-  "sessions": [
-    {
-      "by": "Tony Edwards",
-      "description": [
-        "What does a meetup loving software engineer do when our in-person communities disappear overnight?",
-
-        "This developer disconnected from the modern world and found a completely new community on his doorstep. One comprised entirely of birds. After spending 12 months feeding, recording, and identifying them, he now has the perfect dataset to get geeky and have some fun.",
-
-        "Bird song is a great example of the algorithmic properties of nature. Web Midi is the perfect way to express the algorithmic beauty of music in a digital first world. But what happens when you mix the two together?",
-
-        "In his talk, Tony Edwards from Bluefruit Software, aims to find out. Using the bird song recordings captured during lockdown series one & two as a starting point (along with his trusty midi controller), Tony will walk the HalfStack community through the creation of a few interactive demos.",
-
-        "Will they work? Probably. Will there be cat gifs? Definitely."
-      ],
-      "socials": [
-        {
-          "href": "https://tonyedwardspz.co.uk/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://github.com/tonyedwardspz",
-          "icon": "github"
-        },
-        {
-          "href": "https://medium.com/@tonyedwardspz",
-          "icon": "medium"
-        },
-        {
-          "href": "https://www.linkedin.com/in/tonyedwardspz/",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://twitter.com/tonyedwardspz",
-          "icon": "twitter"
-        }
-      ],
-      "title": "MIDI Birds: Adventures in Browser Wonderland"
-    },
-    {
-      "by": "Jo Franchetti",
-      "description": [
-        "During the pandemic we've all been feeling pretty isolated, and we've all been doing our best and wearing masks. But what if everyone wearing masks cuts off your ability to converse? My lil mum relies on lip reading and clear sounds to understand what people are saying. But I, of course, want her to stay safe. So the thought occurred. Can I make a live caption display fit into a mask so that she can read what I'm saying?",
-
-        "This talk will cover how to build a wearable LED display, how to build a web app which uses AI to convert speech to text and how to compress that text into a scrolling pixel font to send to the display.",
-
-        "We'll be using Node, JavaScript and some C, Azure Cognitive Services and MQTT."
-      ],
-      "socials": [
-        {
-          "href": "https://glitch.com/@JoFranchetti",
-          "icon": "glitch"
-        },
-        {
-          "href": "https://jofranchetti.medium.com/",
-          "icon": "medium"
-        },
-        {
-          "href": "https://www.linkedin.com/in/jofranchetti",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://twitter.com/ThisIsJoFrank",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Wearable Live Captions"
-    },
-    {
-      "by": "Josh Goldberg",
-      "description": [
-        "Suppose you want to build an app with a virtual space to hang out with your friends. In real time. Over 3D virtual reality. With a synchronized video playlist. And Karaoke!? 10 years ago, you'd have been laughed out of the room.",
-
-        "Today, you'd have plenty of premade opportunities on the web: A-Frame for virtual rooms; Socket.IO for realtime WebSocket communications; TypeScript for cross-stack type safety; React+Next.js for speedy reactive UIs.",
-
-        "We'll spend some time together in this talk looking at how to mash all those wonderful pieces of technology together for a stable application. Through that exploration, we'll see how we can take advantage of the web's features -and quirks- to make our client experience feel great."
-      ],
-      "socials": [
-        {
-          "href": "https://joshuakgoldberg.com/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://github.com/JoshuaKGoldberg",
-          "icon": "github"
-        },
-        {
-          "href": "https://twitter.com/JoshuaKGoldberg",
-          "icon": "twitter"
-        }
-      ],
-      "title": "WebXR Karaoke"
-    },
-    {
-      "by": "Tom Hazledine",
-      "description": [
-        "Analogue music hardware will make you better at JavaScript audio programming. Learn where the core concepts came from originally, and use good ol' fashioned sockets and wires instead of lines-of-code.",
-
-        "With a modular synth, you can transform your office into a retro-futuristic spaceship (and maybe also make some music, too).",
-
-        "Beep boop!"
-      ],
-      "socials": [
-        {
-          "href": "https://tomhazledine.com/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://twitter.com/thomashazledine",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Burn Your computers. Buy Modular Synths."
-    },
-    {
-      "by": "Alex Lakatos",
-      "description": [
-        "Trying to get paid on the Web today, as a creator, is broken and unfair.",
-
-        "70% of ad spend globally goes to only 2 platforms. Until recently, the Web couldn't natively compete. A new W3C Standard proposal, Web Monetization, uses the Interledger Protocol to enable developers like you to make money from your work in an open, native, and seamless way. And all that with as little as a single line of HTML!"
-      ],
-      "socials": [
-        {
-          "href": "https://alexlakatos.com/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://github.com/AlexLakatos",
-          "icon": "github"
-        },
-        {
-          "href": "https://twitter.com/avolakatos",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Pay the Web Forward"
-    },
-    {
-      "by": "Dale Lane",
-      "description": [
-        "An intro to AI talk with a difference: told through stories, stories about the experiences of young children in the schools that I've worked with.",
-
-        "I have run lessons in many schools, introducing students aged 7 and up, to the principles of artificial intelligence and machine learning and more importantly, the impact that these technologies have on their lives.",
-
-        "I've worked with dozens of schools and code clubs to develop child-friendly STEM resources and activities that help children learn about AI through making. In developing and delivering these hands-on sessions, I've supported children to create many different machine learning-powered projects. In all of this, I've been fascinated to see what they've learned from these experiences.",
-
-        "In this session, I want to share what I've seen. I will demonstrate AI/ML projects made by children - but more importantly, I want to tell you some stories about how it went and the lessons they learned from making them.",
-
-        "I think the insights these children gained provide a useful introduction for any developer looking to get started with AI/ML, so if you're new to the field I hope you'll get a useful introduction to how you can get started.",
-
-        "If you already know your way around a machine learning model, I hope you'll find some of the experiences of the next generation interesting!"
-      ],
-      "socials": [
-        {
-          "href": "https://dalelane.co.uk/blog",
-          "icon": "blog"
-        },
-        {
-          "href": "https://linkedin.com/in/dalelane",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://twitter.com/dalelane",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Learning About AI From Kids"
-    },
-    {
-      "by": "Earth to Abigail",
-      "description": [
-        "Live coding is a new direction in electronic music and video.",
-        "Live coders expose and rewire the innards of software while it generates improvised music and/or visuals.",
-        "All code manipulation is projected for all to see. Live coding works across musical genres, and has been seen in concert halls, late-night jazz bars, as well as algoraves.",
-
-        "Sonic Pi is a live coding environment built specifically for creating music.",
-        "It's based in the Ruby programming language and it's primary aim is to provide a fun and approachable way to learn how to code while stimulating creativity.",
-        "Though Sonic Pi is an educational tool, it is still a powerful tool and has been used by professional live coders around the globe.",
-
-        "In their performances, Earth to Abigail likes to take advantage of Sonic Pi's easily readable language to emphasize the poetic capabilities that code can provide but that is often overlooked.",
-        "In this kind of creative context, code has not only a utilitarian purpose but also a poetic one, complementing the music it creates."
-      ],
-      "socials": [
-        {
-          "href": "https://earthtoabigail.com/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://instagram.com/mynah_m",
-          "icon": "instagram"
-        },
-        {
-          "href": "https://twitter.com/EarthAbigail",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Live Coding Music with Sonic Pi"
-    },
-    {
-      "by": "Theodore Vorillas",
-      "description": [
-        "On December the 2nd 2020, I was in my pajamas scrolling through my Twitter feed when I spotted a tweet about an online petition.",
-        "From that moment everything changed.",
-        "A few months later I would see my name rumbling through the media, getting featured in a documentary, and getting mentioned in the European parliament.",
-        "This is my wild story about taking down a website where non-consensual intimate images were shared.",
-        "During this talk, you would find out how using a headless browser, WebAssembly, and tons of artificially generated cats we can help out victims and survivors of non-consensual intimate image sharing."
-      ],
-      "socials": [
-        {
-          "href": "https://vorillaz.com/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://github.com/vorillaz",
-          "icon": "github"
-        },
-        {
-          "href": "https://twitter.com/vorillaz",
-          "icon": "twitter"
-        }
-      ],
-      "title": "The Cats are Fighting Back"
-    }
-  ],
-  "sponsors": {
-    "complete": [],
-    "large": [],
-    "medium": [],
-    "small": []
+  "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, breaks, lunch, dinner, and an interactive afterparty. Plan to arrive by 10am and stay late! We're also expecting to have fun at the beach on Saturday, so plan to stay the whole weekend! Sessions will be announced closer to the event.",
+  "sponsors":  {
+    "complete": [
+      {
+        "href": "https://livingspec.com/",
+        "src": "/logos/livingspec.svg",
+        "name": "Living Spec"
+      },
+      {
+        "href": "https://softwarecornwall.org/",
+        "src": "/logos/softwarecornwall.jpg",
+        "name": "Software Cornwall"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "src": "/logos/salesforce.svg",
+        "name": "Salesforce Engineering"
+      },
+      {
+        "href": "https://wearedhd.com/",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg",
+        "name": "Mozilla"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://ti.to",
+        "src": "/logos/tito.svg",
+        "name": "Tito"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg",
+        "name": "Open JS Foundation"
+      }
+    ]
   },
   "trailer": "https://halfstackconf.com/videos/Halfstack-in-Newquay.mp4",
   "year": 2022

@@ -5,7 +5,7 @@
   "date": "February 3 2023, 10am - Late",
   "description": [
     "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
-    "Mostly from the Phoenix area, with some from throughout the US, Europe and the UK"
+    "Mostly from the Phoenix area, with some from throughout the US, Europe and beyond"
   ],
   "faqs": [
     [
@@ -15,7 +15,7 @@
   ],
   "geolocation": [33.317108, -111.688454],
   "location": "Majestic Theater, Gilbert",
-  "packet": "https://app.livingspec.com/accept-invitation?code=269b0632-c270-497b-bc31-f9ee02fc2659",
+  "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! We're also expecting to have an optional informal afternoon of full on Saturday, so join us then if time permits!",
   "sessions": [
     {
@@ -130,21 +130,21 @@
         "name": "Salesforce Engineering"
       },
       {
-        "href": "https://nrwl.io",
-        "src": "/logos/nrwl.svg",
-        "name": "Nrwl"
+        "href": "https://nx.dev",
+        "src": "/logos/nx.svg",
+        "name": "Nx"
       },
       {
         "href": "https://www.wix.com/velo",
-        "src": "/logos/wixengineering.svg",
+        "src": "/logos/wix.svg",
         "name": "Wix"
       }
     ],
     "large": [
       {
-        "href": "https://sitepen.com/",
-        "src": "/logos/sitepen.svg",
-        "name": "SitePen"
+        "href": "https://wearedhd.com/",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
       }
     ],
     "medium": [
@@ -162,11 +162,6 @@
         "href": "https://iceddev.com/",
         "src": "/logos/iceddev.svg",
         "name": "Iced.dev"
-      },
-      {
-        "href": "https://wearedhd.com/",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
       },
       {
         "href": "https://www.mozilla.org/",

@@ -9,8 +9,8 @@ import { Text } from "../../components/Text";
 
 const faqs: [string, React.ReactNode][] = [
   [
-    "Why 7 HalfStack Events?",
-    "We wanted to bring HalfStack beyond London to other great JavaScript communities. If you're interested in bringing HalfStack to your city, let us know!",
+    "Why 8 HalfStack Events?",
+    "We wanted to bring HalfStack beyond London to other great JavaScript communities. If you&apos;re interested in bringing HalfStack to your city, let us know!",
   ],
   [
     "Does HalfStack include paid vendor pitches?",
@@ -37,7 +37,8 @@ const faqs: [string, React.ReactNode][] = [
       <br />
       <br />
       COVID-19 refund policy: Full refunds are available up to 7 days prior to a
-      scheduled in-person event.
+      scheduled in-person event. If you wake up ill, stay home and we&apos;ll credit
+      you with a ticket for a future event.
     </>,
   ],
 ];
