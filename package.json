@@ -8,6 +8,8 @@
   },
   "description": "The next version of halfstackconf.com. ✨",
   "devDependencies": {
+    "@axe-core/playwright": "^4.5.2",
+    "@playwright/test": "^1.29.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
@@ -26,7 +28,8 @@
     "markdownlint-cli": "^0.32.2",
     "npm-package-json-lint": "^6.3.0",
     "npm-package-json-lint-config-default": "^5.0.0",
-    "prettier": "^2.7.1",
+    "playwright": "^1.29.2",
+    "prettier": "^2.8.2",
     "stylelint": "^14.14.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^29.0.0",
@@ -51,6 +54,8 @@
     "lint:style": "stylelint \"src/**/*.css\"",
     "prepare": "husky install",
     "start": "next start",
+    "test": "playwright test --headed",
+    "test:ci": "playwright test",
     "tsc": "tsc"
   },
   "version": "0.1.0"

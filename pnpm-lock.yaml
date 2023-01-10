@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@axe-core/playwright': ^4.5.2
+  '@playwright/test': ^1.29.2
   '@react-google-maps/api': ^2.13.1
   '@types/node': 18.11.18
   '@types/react': 18.0.21
@@ -22,7 +24,8 @@ specifiers:
   next: 12.3.1
   npm-package-json-lint: ^6.3.0
   npm-package-json-lint-config-default: ^5.0.0
-  prettier: ^2.7.1
+  playwright: ^1.29.2
+  prettier: ^2.8.2
   react: 18.2.0
   react-dom: 18.2.0
   stylelint: ^14.14.0
@@ -40,6 +43,8 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+  '@axe-core/playwright': 4.5.2_playwright@1.29.2
+  '@playwright/test': 1.29.2
   '@types/node': 18.11.18
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
@@ -58,7 +63,8 @@ devDependencies:
   markdownlint-cli: 0.32.2
   npm-package-json-lint: 6.3.0
   npm-package-json-lint-config-default: 5.0.0_5bj2o3dcjliztyiwap3x4pk5tu
-  prettier: 2.7.1
+  playwright: 1.29.2
+  prettier: 2.8.2
   stylelint: 14.14.0
   stylelint-config-prettier: 9.0.3_stylelint@14.14.0
   stylelint-config-standard: 29.0.0_stylelint@14.14.0
@@ -67,6 +73,15 @@ devDependencies:
   typescript: 4.8.4
 
 packages:
+
+  /@axe-core/playwright/4.5.2_playwright@1.29.2:
+    resolution: {integrity: sha512-RXdnUeroQwLoIoxxZNKBy/2FsjOrgYsiIrSdZkRfVVWFudTgatncc9izyMZ40ou+nw/d1zi/WPCjrLUI6TZBBA==}
+    peerDependencies:
+      playwright: '>= 1.0.0'
+    dependencies:
+      axe-core: 4.6.2
+      playwright: 1.29.2
+    dev: true
 
   /@babel/code-frame/7.18.6:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
@@ -311,6 +326,15 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@playwright/test/1.29.2:
+    resolution: {integrity: sha512-+3/GPwOgcoF0xLz/opTnahel1/y42PdcgZ4hs+BZGIUjtmEFSXGg+nFoaH3NSmuc7a6GSFwXDJ5L7VXpqzigNg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.11.18
+      playwright-core: 1.29.2
     dev: true
 
   /@react-google-maps/api/2.13.1_biqbaboplfbrettd7655fr4n2y:
@@ -697,8 +721,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /axe-core/4.4.3:
-    resolution: {integrity: sha512-32+ub6kkdhhWick/UjvEwRchgoetXqTK14INLqbGm5U2TzBkBNF3nQtLYm8ovxSkQWArjEQvftCKryjZaATu3w==}
+  /axe-core/4.6.2:
+    resolution: {integrity: sha512-b1WlTV8+XKLj9gZy2DZXgQiyDp9xkkoe2a6U6UbYccScq2wgH/YwCeI2/Jq2mgo0HzQxqJOjWZBLeA/mqsk5Mg==}
     engines: {node: '>=4'}
     dev: true
 
@@ -1216,7 +1240,7 @@ packages:
       aria-query: 4.2.2
       array-includes: 3.1.5
       ast-types-flow: 0.0.7
-      axe-core: 4.4.3
+      axe-core: 4.6.2
       axobject-query: 2.2.0
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
@@ -2596,6 +2620,21 @@ packages:
     hasBin: true
     dev: true
 
+  /playwright-core/1.29.2:
+    resolution: {integrity: sha512-94QXm4PMgFoHAhlCuoWyaBYKb92yOcGVHdQLoxQ7Wjlc7Flg4aC/jbFW7xMR52OfXMVkWicue4WXE7QEegbIRA==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /playwright/1.29.2:
+    resolution: {integrity: sha512-hKBYJUtdmYzcjdhYDkP9WGtORwwZBBKAW8+Lz7sr0ZMxtJr04ASXVzH5eBWtDkdb0c3LLFsehfPBTRfvlfKJOA==}
+    engines: {node: '>=14'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.29.2
+    dev: true
+
   /plur/4.0.0:
     resolution: {integrity: sha512-4UGewrYgqDFw9vV6zNV+ADmPAUAfJPKtGvb/VdpQAx25X5f3xXdGdyOEVFwkl8Hl/tl7+xbeHqSEM+D5/TirUg==}
     engines: {node: '>=10'}
@@ -2663,8 +2702,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

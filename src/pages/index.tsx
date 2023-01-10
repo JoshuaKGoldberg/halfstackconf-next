@@ -23,6 +23,8 @@ export default function Index({
       <Header />
       <Intro />
       <EventsList events={events} />
+      <h1>Intentionally wrong!</h1>
+      <h1>Intentionally very wrong!</h1>
       <ExpectationPhotos />
       <Newsletter />
       <SponsorStacksList {...sponsors} />;
